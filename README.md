@@ -4,13 +4,13 @@ Objetivo: Criar uma aplicação CRUD(create, read, update, delete) com banco de 
 
 ## 📝 Sumário
 
-- [Pré-requisitos](#pré-requisitos)
-- [Configuração do Projeto](#configuração-do-projeto)
-- [Rodando o Projeto](#rodando-o-projeto)
-- [Desafio A - Estruturando o Banco de Dados](#desafio-a---banco-de-dados)
-- [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
-- [Rotas da API](#rotas-da-api)
-- [Testando com Postman](#testando-com-postman)
+- [⚙️ Pré-requisitos](#pré-requisitos)
+- [🚀 Configuração do Projeto](#configuração-do-projeto)
+- [▶️ Rodando o Projeto](#rodando-o-projeto)
+- [🏆 Desafio A - Banco de Dados](#desafio-a---banco-de-dados)
+- [🗄️ Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
+- [🌐 Rotas da API](#rotas-da-api)
+- [🧪 Testando com Postman](#testando-com-postman)
 
 ## ⚙️ Pré-requisitos
 
