@@ -1,0 +1,155 @@
+{
+	"info": {
+		"_postman_id": "1d78b737-7e2e-409c-9a6e-5069b28589b9",
+		"name": "api-registro-pessoas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15682364"
+	},
+	"item": [
+		{
+			"name": "Seleção de uma Pessoa",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:5000/pessoas/6",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seleção de todas as Pessoas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/pessoas",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registro de Pessoa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"João Silva\",\r\n    \"dataNascimento\": \"1980-01-01\",\r\n    \"salario\": 5000.00,\r\n    \"observacoes\": \"PJ\",\r\n    \"nomeMae\": \"Maria Silva\",\r\n    \"nomePai\": \"José Silva\",\r\n    \"cpf\": \"12345678900\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/pessoas",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Atualização de Pessoa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"João Silva Atualizado\",\r\n    \"dataNascimento\": \"1980-01-01\",\r\n    \"salario\": 5500.00,\r\n    \"observacoes\": \"Atualizado\",\r\n    \"nomeMae\": \"Maria Silva\",\r\n    \"nomePai\": \"José Silva\",\r\n    \"cpf\": \"12345678900\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:5000/pessoas/8",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remoção de Pessoa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:5000/pessoas/8",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pessoas",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "idPessoa",
+			"value": "6"
+		}
+	]
+}
