@@ -1,13 +1,13 @@
-# 🛠️ CRUD API com Flask e PostgreSQL
+# 🛠️ Desafio Desenvolvedor Backend
 
-Este projeto é uma API RESTful básica construída com Python usando Flask e PostgreSQL. A API permite a criação, leitura, atualização e exclusão (CRUD) de registros em uma tabela de pessoas.
+Objetivo: Criar uma aplicação CRUD(create, read, update, delete) com banco de dados e API.
 
 ## 📝 Sumário
 
 - [Pré-requisitos](#pré-requisitos)
 - [Configuração do Projeto](#configuração-do-projeto)
 - [Rodando o Projeto](#rodando-o-projeto)
-- [Desafio A - Estruturando o Banco de Dados](#desafio-banco-de-dados)
+- [Desafio A - Estruturando o Banco de Dados](#desafio-a---banco-de-dados)
 - [Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
 - [Rotas da API](#rotas-da-api)
 - [Testando com Postman](#testando-com-postman)
